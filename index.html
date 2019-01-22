@@ -17,53 +17,59 @@
     <!-- script src='main.js'></script> -->
 </head>
 
-<body class='pushable'>
-    <!-- Following Menu -->
-    <div class='ui large top fixed hidden menu'>
-        <div class='ui container'>
-            <a class='active item'>Home</a>
-            <a class='item'>Work</a>
-            <a class='item'>Contact</a>
-        </div>
-    </div>
-    <!-- Sidebar Menu -->
-    <div class='ui vertical inverted sidebar menu left'>
-        <a class='active item'>
-            ::before
-            'Home'
-        </a>
-        <a class='item'>
-            'Work'
-        </a>
-        <a class='item'>
-            'Contact'
-        </a>
-        ::after
-    </div>
-    <!-- Page Contents -->
-    <div class='pusher'>
-        <div class='ui inverted vertical masthead center aligned segment'>
-            <div class='ui container'>
-                <div class='ui large secondary inverted pointing menu'>
-                    <a class='toc item'>
-                        <i class='sidebar icon'></i>
-                    </a>
-                    <a class='active item'>Home</a>
-                    <a class='item'>Work</a>
-                    <a class='item'>Contact</a>
-                    <div class='right item'>
-                        <i class='wifi icon'></i>
-                        <i class='rss icon'></i>
+<body>
+    <div class='ui equal width center aligned padded grid'>
+        <!-- Inverted Segment Menu -->
+        <div class='row'>
+            <div class='column'>
+                <div class='ui inverted segment menu'>
+                    <div class='ui inverted secondary pointing menu'>
+                        <a class='active item'>Home</a>
+                        <a class='item'>Work</a>
+                        <a class='item'>Contact</a>
                     </div>
-                    ::after
+                    <div class='right menu'>
+                        <i class='wifi icon'></i>
+                        <i class='rss feed icon'></i>
+                    </div>
                 </div>
             </div>
-            <div class='ui text container'>
-                <h1 class='ui inverted header'>Welcome to my landing page.</h1>
-                <h2>Matt Tedder | Full Stack Web Developer</h2>
-                <div class='ui huge primary button'>
-                    Read More
-                    <i class='right arrow icon'></i>
+        </div>
+        <!-- Page Contents -->
+        <div class='row'>
+            <div class='column'>
+                <div class='ui inverted placeholder segment'>
+                    <h1 class='ui inverted header'>Welcome to my landing page.</h1>
+                    <h2>Matt Tedder | Full Stack Web Developer</h2>
+                    <div class='ui huge primary button'>
+                        Read More
+                        <i class='right arrow icon'></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='column'>
+                <div class='ui inverted segment'>
+                    <h1 class='ui inverted header'>
+                        About Me
+                    </h1>
+                    <p>Full Stack Web Developer passionate about programming to increase the interdependence of the world.</p>
+                </div>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='column'>
+                <div class='ui inverted segment'>
+                    <h1 class='ui inverted header'>
+                        My Work
+                    </h1>
+                    <div class="ui inverted link list">
+                        <a class="active item">Resident Evil Node</a>
+                        <a class="item">Denver Post News Scraper</a>
+                        <a class="item">Social Rent</a>
+                        <a class="item">Firebase Messenger</a>
+                    </div>
                 </div>
             </div>
         </div>
