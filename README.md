@@ -8,7 +8,7 @@ HTML5 | CSS3 | [Sematic UI](https://semantic-ui.com/)
 
 ## Demo
 
-You can view this page at [Portfolio 3.0](https://mjtedder.github.io/Portfolio-1.0/)
+You can view this page at [Portfolio 3.0](https://mjtedder.github.io/Portfolio-3.0/)
 
 ## Installation
 
